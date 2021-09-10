@@ -1,0 +1,23 @@
+.controlContainer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn1 {
+    max-width: 150px;
+    width: 100%;
+}
+
+.btn {
+    max-width: 200px;
+    width: 100%;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
