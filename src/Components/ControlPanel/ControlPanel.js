@@ -5,7 +5,7 @@ export default function ControlPanel (props) {
     return (
         <div className={s.controlContainer}>
             <div>
-                <img onClick={props.pause} className={s.btn1} name='wait' src='Icons/pause.png' alt='pause'/>
+                <img onDoubleClick={props.pause} className={s.btn1} name='wait' src='Icons/pause.png' alt='pause'/>
             </div>
             <div>
                 <img onClick={props.status === "stop" || props.status === "pause" ? props.play : props.stop} className={s.btn} name='start-stop'
